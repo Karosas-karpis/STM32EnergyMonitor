@@ -1,0 +1,53 @@
+# Build outputs (STM32CubeIDE)
+Debug/
+Release/
+build/
+cmake-build-*/
+out/
+
+# Object / binary artifacts (anywhere)
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.a
+*.axf
+*.i
+*.srec
+
+# Compiler / dependency caches
+*.dep
+*.d.tmp
+
+# Eclipse / CubeIDE local workspace noise
+.metadata/
+RemoteSystemsTempFiles/
+*.launch
+
+# CMake / Ninja generated (if you switch to CMake later)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+install_manifest.txt
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local / backup files
+*.bak
+*.tmp
+*.log
