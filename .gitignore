@@ -28,6 +28,7 @@ out/
 .metadata/
 RemoteSystemsTempFiles/
 *.launch
+.settings/language.settings.xml
 
 # CMake / Ninja generated (if you switch to CMake later)
 CMakeCache.txt
